@@ -20,5 +20,7 @@ class DefaultController extends Controller
         ]);
     }
 
-  
+    public function test(MyPrivateService $myPrivateService){
+
+    }
 }
